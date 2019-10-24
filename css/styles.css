@@ -1,33 +1,20 @@
 body {
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   margin: 0 0 0 0;
 }
 
 header {
   height: 128px;
   width: 300px;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   display: flex;
   padding-top: 1%;
   margin-left: 76%;
 }
 
-main {
-  height: 500px;
-  width: 25%;
-  background-color: white;
-  text-align: center;
-  display: flex;
-  margin-left: 38%;
-}
-
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: #ECEEF1;
-}
-
-#sign-button {
+.custom-font {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
   background-color: #0984e3;
   color: white;
   border-style: none;
@@ -40,10 +27,6 @@ footer {
   margin-left: 10px;
 }
 
-.custom-font {
-  font-family: 'Barlow', sans-serif;
-  font-weight: 400;
-}
 
 .sign-icon {
   margin-right: 2px;
@@ -56,4 +39,59 @@ footer {
 
 .sign-link {
   text-decoration: none;
+}
+
+.section-1 {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  
+}
+.section-2{
+  max-width: 400px;
+  height: 800px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+  text-align: left;
+  
+}
+input[type=text], input[type=password]{
+  width: 85%;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  margin: 15px;
+  margin-left: 1px;
+
+}
+
+.block {
+  display: block;
+  width: 75%;
+  border: none;
+  background-color: #0984e3;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.title-div {
+  flex: 90;
+  width: 200px;
+  height: 200px;
+}
+.icons {
+  flex: 1;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #eceef1;
 }
