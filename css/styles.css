@@ -27,7 +27,6 @@ header {
   margin-left: 10px;
 }
 
-
 .sign-icon {
   margin-right: 2px;
 }
@@ -44,11 +43,22 @@ header {
 .section-1 {
   height: 100px;
   width: 100%;
-  background-color: white;
+  background-color: #eceef1;
   display: flex;
-  
+  text-align: center;
 }
-.section-2{
+
+.inline {
+  display: inline;
+  margin-right: 30px;
+
+}
+
+.main-logo {
+  height: 80px;
+}
+
+.section-2 {
   max-width: 400px;
   height: 800px;
   margin: auto;
@@ -56,16 +66,15 @@ header {
   padding: 20px;
   background-color: white;
   text-align: left;
-  
 }
-input[type=text], input[type=password]{
+
+input[type=text], input[type=password] {
   width: 85%;
   height: 30px;
   box-sizing: border-box;
   padding: 12px 5px;
   margin: 15px;
   margin-left: 1px;
-
 }
 
 .block {
@@ -86,8 +95,15 @@ input[type=text], input[type=password]{
   width: 200px;
   height: 200px;
 }
+
+.title-icons-container {
+
+  height: 64px;
+}
+
 .icons {
   flex: 1;
+
 }
 
 footer {
