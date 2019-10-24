@@ -1,0 +1,24 @@
+body {
+    background-color: #ECEEF1;
+    
+}
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #ECEEF1;
+  
+  
+}
+main {
+    height: 500px;
+    width: 25%;
+    background-color: red;
+    
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #ECEEF1;
+   
+}
