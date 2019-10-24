@@ -1,24 +1,59 @@
 body {
-    background-color: #ECEEF1;
-    
+  background-color: #ECEEF1;
+  margin: 0 0 0 0;
 }
+
 header {
-    height: 50px;
-    width: 100%;
-    background-color: #ECEEF1;
-  
-  
+  height: 128px;
+  width: 300px;
+  background-color: #ECEEF1;
+  display: flex;
+  padding-top: 1%;
+  margin-left: 76%;
 }
+
 main {
-    height: 500px;
-    width: 25%;
-    background-color: red;
-    
+  height: 500px;
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  margin-left: 38%;
 }
 
 footer {
-    height: 100px;
-    width: 100%;
-    background-color: #ECEEF1;
-   
+  height: 100px;
+  width: 100%;
+  background-color: #ECEEF1;
+}
+
+#sign-button {
+  background-color: #0984e3;
+  color: white;
+  border-style: none;
+  border-radius: 6%;
+  border-style: ridge;
+  border-color: black;
+  border-width: 1px;
+  width: 100px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+.custom-font {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+}
+
+.sign-icon {
+  margin-right: 2px;
+}
+
+.sign-button-container {
+  display: flex;
+  line-height: normal;
+}
+
+.sign-link {
+  text-decoration: none;
 }
