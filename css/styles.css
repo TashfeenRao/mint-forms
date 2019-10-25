@@ -98,7 +98,7 @@ footer {
   text-align: left;
 }
 
-input[type=text], input[type=password] {
+input[type=text] input[type=password] {
   width: 85%;
   height: 30px;
   box-sizing: border-box;
@@ -176,5 +176,5 @@ input[type=text], input[type=password] {
 }
 
 .no-margin-top {
-  margin-top: 0px;
+  margin-top: 0;
 }
