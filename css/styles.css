@@ -1,3 +1,20 @@
+#learn-link {
+  text-decoration: none;
+  color: #0984e3;
+}
+
+label#email {
+  margin-right: 260px;
+}
+
+label#phone {
+  margin-right: 200px;
+}
+
+label#password {
+  margin-right: 280px;
+}
+
 body {
   background-color: #EDEEF2;
   margin: 0 0 0 0;
@@ -20,7 +37,6 @@ footer {
   background-color: #eceef1;
   display: flex;
 }
-
 
 .custom-font {
   font-family: "Barlow", sans-serif;
@@ -75,12 +91,14 @@ footer {
   background-color: white;
   text-align: center;
   border-style: solid;
-    border-width: 1px;
-    border-color: #8E8F91;
+  border-width: 1px;
+  border-color: #8E8F91;
 }
-.label-class{
+
+.label-class {
   text-align: left;
 }
+
 input[type=text], input[type=password] {
   width: 85%;
   height: 30px;
@@ -102,11 +120,13 @@ input[type=text], input[type=password] {
   margin: 20px;
   margin-left: 50px;
 }
-.capticha{
-  margin-top: 100px;
+
+.capticha {
+  margin-top: 146px;
   background-color: #EDEEF2;
   max-width: 400px;
 }
+
 .title-div {
   flex: 90;
   width: 200px;
@@ -139,4 +159,23 @@ input[type=text], input[type=password] {
   line-height: 2px;
   color: #8E8F91;
   font-weight: 400;
+}
+
+.roboto-font {
+  color: #2c3e50;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.small-font {
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.no-margin-top {
+  margin-top: 0px;
 }
