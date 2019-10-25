@@ -44,7 +44,7 @@ footer {
 
 .privacy-text {
   font-weight: lighter;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.6rem;
 }
 
@@ -88,7 +88,7 @@ footer {
 
 .sign-link {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .section-1 {
@@ -124,7 +124,7 @@ footer {
   text-align: left;
 }
 
-input[type=text] input[type=password] {
+input[type="text"] input[type="password"] {
   width: 85%;
   height: 30px;
   box-sizing: border-box;
@@ -190,14 +190,14 @@ input[type=text] input[type=password] {
 
 .roboto-font {
   color: #2c3e50;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
 }
 
 .small-font {
   font-size: 1rem;
   line-height: normal;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .too-small {
