@@ -4,11 +4,11 @@
 }
 
 label#email {
-  margin-right: 260px;
+  margin-right: 255px;
 }
 
 label#phone {
-  margin-right: 200px;
+  margin-right: 185px;
 }
 
 label#password {
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  height: 128px;
+  height: 64px;
   width: 300px;
   background-color: #eceef1;
   display: flex;
@@ -36,6 +36,31 @@ footer {
   width: 100%;
   background-color: #eceef1;
   display: flex;
+}
+
+.little-text {
+  margin-right: 90px;
+}
+
+.privacy-text {
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6rem;
+}
+
+.big {
+  width: 330px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.input-container {
+  margin-left: 20px;
+  line-height: 2.3;
+}
+
+.wrapper {
+  margin-bottom: 30px;
 }
 
 .custom-font {
@@ -63,6 +88,7 @@ footer {
 
 .sign-link {
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .section-1 {
@@ -110,7 +136,7 @@ input[type=text] input[type=password] {
 .block {
   display: block;
   width: 75%;
-  border: none;
+  border-style: none;
   background-color: #0984e3;
   color: white;
   padding: 14px 28px;
@@ -121,9 +147,11 @@ input[type=text] input[type=password] {
 }
 
 .capticha {
-  margin-top: 146px;
+  margin-top: 37px;
   background-color: #edeef2;
   max-width: 400px;
+  height: 26px;
+  padding-top: 10px;
 }
 
 .title-div {
@@ -169,6 +197,12 @@ input[type=text] input[type=password] {
 .small-font {
   font-size: 1rem;
   line-height: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.too-small {
+  font-size: 1px;
+  text-align: left;
 }
 
 .no-margin-bottom {
@@ -177,4 +211,8 @@ input[type=text] input[type=password] {
 
 .no-margin-top {
   margin-top: 0;
+}
+
+.left {
+  text-align: left;
 }

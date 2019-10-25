@@ -30,23 +30,35 @@
       <h1 class="roboto-font">Create an Intuit account</h1>
       <h3 class="roboto-font small-font no-margin-bottom">One account for everything Intuit,including Mint.</h3>
       <h5 class="no-margin-top"><a href="#" id="learn-link">Learn more</a></h5>
-      <label for="fname" id="email">Email address</label>
-      <input type="text" id="fname" name="fname" />
-      <label for="lname" id="phone">Phone (recommended)</label>
-      <input type="text" id="lname" name="lname" />
-      <label for="lname" id="password">Password</label>
-      <input type="text" id="mname" name="mname" />
+      <div class="input-container">
+        <div class="wrapper">
+          <label class="roboto-font" for="fname" id="email">Email address</label>
+          <input class="big" type="text" id="fname" name="fname" />
+        </div>
+        <div class="wrapper">
+          <label class="roboto-font" for="lname" id="phone">Phone (Recommended)</label>
+          <input class="big" type="text" id="lname" name="lname" />
+          <small class="little-text">Standard call, messaging or data rates may apply.</small>
+        </div>
+        <div class="wrapper">
+          <label class="roboto-font" for="lname" id="password">Password</label>
+          <input class="big" type="text" id="mname" name="mname" />
+        </div>
+
+
+      </div>
       <button type="button" name="button" class="block">
         <i class="fa fa-lock sign-icon"></i> Creat Account
       </button>
-      <p>
-        By clicking Create account, you agree to our Terms and have read and
-        acknowledge our Privacy Statement.
+      <p class="small-font">
+        By clicking Create account, you agree to our <br> <span><a href="" class="sign-link">Terms</a></span> and have read and
+        acknowledge our <span><a href="" class="sign-link">Privacy Statement.</a></span>
       </p>
+      <div class="capticha">
+        <small class="privacy-text">Invisible reCAPTCHA by Google <span><a href="" class="sign-link">Privacy Policy</a></span> and <span><a href="" class="sign-link">Terms of Use.</a></span></small>
+      </div>
     </form>
-    <p class="capticha">
-      Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
-    </p>
+
   </section>
 
   <div class="bottom-div"></div>
