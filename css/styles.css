@@ -21,9 +21,6 @@ footer {
   display: flex;
 }
 
-.main-form {
-
-}
 
 .custom-font {
   font-family: "Barlow", sans-serif;
@@ -72,17 +69,18 @@ footer {
 
 .section-2 {
   max-width: 400px;
-  height: 800px;
+  height: 666px;
   margin: auto;
   box-sizing: border-box;
-  padding: 20px;
   background-color: white;
-  text-align: left;
+  text-align: center;
   border-style: solid;
     border-width: 1px;
     border-color: #8E8F91;
 }
-
+.label-class{
+  text-align: left;
+}
 input[type=text], input[type=password] {
   width: 85%;
   height: 30px;
@@ -104,7 +102,11 @@ input[type=text], input[type=password] {
   margin: 20px;
   margin-left: 50px;
 }
-
+.capticha{
+  margin-top: 100px;
+  background-color: #EDEEF2;
+  max-width: 400px;
+}
 .title-div {
   flex: 90;
   width: 200px;
