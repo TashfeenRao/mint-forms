@@ -90,7 +90,6 @@ footer {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: #0984e3;
-
 }
 
 .section-1 {
@@ -199,8 +198,8 @@ input[type="text"] input[type="password"] {
 .small-font {
   font-size: 1rem;
   line-height: normal;
- font-family: "Roboto", sans-serif;
- font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
 }
 
 .too-small {
